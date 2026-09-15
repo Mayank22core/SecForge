@@ -1,0 +1,78 @@
+# SecForge - Example Hashes for Testing
+# ========================================
+# Use these pre-computed hashes to test the Password Hash Cracker tool.
+# Select the matching algorithm in the tool, paste the hash, then use
+# the common_passwords.txt wordlist to crack it.
+#
+# To generate your own hashes:
+#   python -c "import hashlib; print(hashlib.md5(b'yourpassword').hexdigest())"
+
+# ========================================
+# MD5 Hashes
+# ========================================
+# Word: password     -> 5f4dcc3b5aa765d61d8327deb882cf99
+# Word: 123456       -> e10adc3949ba59abbe56e057f20f883e
+# Word: dragon       -> 8621ffdbc5698829397d97767ac13db3
+# Word: letmein      -> 0d107d09f5bbe40cade3de5c71e9e9b7
+# Word: shadow       -> 3bf1114a986ba87ed28fc1b5884fc2f8
+# Word: football     -> 37b4e2d82900d5e94b8da524fbeb33c0
+# Word: baseball     -> 276f8db0b86edaa7fc805516c852c889
+# Word: michael      -> 0acf4539a14b3aa27deeb4cbdf6e989f
+# Word: mustang      -> bee783ee2974595487357e195ef38ca2
+# Word: matrix       -> 21b72c0b7adc5c7b4a50ffcb90d92dd6
+
+# ========================================
+# SHA-256 Hashes
+# ========================================
+# Word: password     -> 5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
+# Word: 123456       -> 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
+# Word: dragon       -> a9c43be948c5cabd56ef2bacffb77cdaa5eec49dd5eb0cc4129cf3eda5f0e74c
+# Word: letmein      -> 1c8bfe8f801d79745c4631d09fff36c82aa37fc4cce4fc946683d7b336b63032
+# Word: shadow       -> 0bb09d80600eec3eb9d7793a6f859bedde2a2d83899b70bd78e961ed674b32f4
+# Word: football     -> 6382deaf1f5dc6e792b76db4a4a7bf2ba468884e000b25e7928e621e27fb23cb
+# Word: baseball     -> a01edad91c00abe7be5b72b5e36bf4ce3c6f26e8bce3340eba365642813ab8b6
+# Word: michael      -> 34550715062af006ac4fab288de67ecb44793c3a05c475227241535f6ef7a81b
+# Word: mustang      -> a92f6bdb75789bccc118adfcf704029aa58063c604bab4fcdd9cd126ef9b69af
+# Word: matrix       -> 6e00cd562cc2d88e238dfb81d9439de7ec843ee9d0c9879d549cb1436786f975
+
+# ========================================
+# SHA-512 Hashes
+# ========================================
+# Word: password     -> b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+# Word: 123456       -> ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413
+# Word: dragon       -> 36622ca176a6d999d3c2b41d3e002a05b4342c8902dcd98145372c2f0a0b9a0031dc1424ffe825f975a6e390887354e903c460e3e374d95a36cca2c058b96d7a
+# Word: letmein      -> adfb6dd1ab1238afc37acd8ca24c1279f8d46f61907dd842faab35b0cc41c6e8ad84cbdbef4964b8334c22c4985c2387d53bc47e6c3d0940ac962f521a127d9f
+# Word: shadow       -> 81599ec77ac571e7dfc863414be4870fdaaacc34ac970ec7d5a91c160adca3b49960d98e31e317f58fffd231fba2965ca8090e8cdab10000f6e3e8ce0bef02ba
+# Word: football     -> 41b8a04dcb8c257972047db7359bb544b15beaa62e39fa16a4587dba07b7dfcaf7f23342961e3f927bddf496bb50e736975e8259c9a990db525585ac5e6be402
+# Word: baseball     -> 61c72f7d44c3b8d3ecb9bf84b0013f34f10874bfb01633b72f0b48bb4c0feb11d982bd6aaffe6bfa75043baa2e8036f8ff119065f231328f3cb29f7fb9730d9e
+# Word: michael      -> 34e1fd6820ce1e79fbbdaae3fc708b634ab1d9765c215b7cd88d4c0c750e87b8c1d478b6112d95ae7bd165f9f73d165263ef7fcee357b48c6bc1f6b591f94ab8
+# Word: mustang      -> 762e00333316c3d6b91f5eb9c08a5214c115287acb0b1209b9201936ed061ab6ce8890943635d4308879fb13898c3367ee82191da6aed14a8281b33ea03e9efa
+# Word: matrix       -> 11a25e88658143a853d280bf77f81ff391347aaba2db54a3aab0149b265276de419880762a473fc496388bcf70566d7cfd0346c34add40652f8f7b669caf9ec0
+
+# ========================================
+# QUICK TEST INSTRUCTIONS
+# ========================================
+#
+# TEST 1: Easy crack (MD5)
+#   Hash:     5f4dcc3b5aa765d61d8327deb882cf99
+#   Algorithm: MD5
+#   Wordlist:  common_passwords.txt
+#   Expected:  password
+#
+# TEST 2: Easy crack (MD5)
+#   Hash:     e10adc3949ba59abbe56e057f20f883e
+#   Algorithm: MD5
+#   Wordlist:  common_passwords.txt
+#   Expected:  123456
+#
+# TEST 3: Easy crack (SHA-256)
+#   Hash:     5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
+#   Algorithm: SHA-256
+#   Wordlist:  common_passwords.txt
+#   Expected:  password
+#
+# TEST 4: Should NOT find (word not in list)
+#   Hash:     e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+#   Algorithm: SHA-256
+#   Wordlist:  common_passwords.txt
+#   Expected:  not found (this is SHA-256 of empty string)
